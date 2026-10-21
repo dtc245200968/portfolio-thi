@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Editor
+.vscode/
+.idea/
+# HTTPS certificates and private keys
+*.key
+*.pem
+*.p12
+*.pfx
+
+# Database backups and data
+*.sql
+*.sql.gz
+mysql_data/
